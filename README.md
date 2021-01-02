@@ -9,6 +9,8 @@ A URL base para todos os endpoints: ```https://clone-wars-quotes.herokuapp.com``
 
 Foram lançadas 7 temporadas, portanto nos *endpoints* que precisam do parâmetro temporada, você deve passar um número de 1 a 7.
 
+### /quotes
+
 
 ```/quotes``` Retorna todas as citações das 7 temporadas.
 
@@ -41,6 +43,8 @@ Foram lançadas 7 temporadas, portanto nos *endpoints* que precisam do parâmetr
   }
 ```
 
+### /randomQuote
+
 
 ```/randomQuote``` Retorna uma citação aleatória do conjunto das 7 temporadas.
 
@@ -54,6 +58,7 @@ Foram lançadas 7 temporadas, portanto nos *endpoints* que precisam do parâmetr
 }
 ```
 
+### /randomQuotesBySeason/{season}
 
 ```/randomQuotesBySeason/{season}``` Retorna uma citação aleatória de uma temporada específica.
 
@@ -67,6 +72,8 @@ Foram lançadas 7 temporadas, portanto nos *endpoints* que precisam do parâmetr
     "quote": "A true heart should never be doubted."
 }
 ```
+
+### /quote/{season}/{episode}
 
 ```/quote/{season}/{episode}``` Retorna um citação específica de uma temporada específica.
 
