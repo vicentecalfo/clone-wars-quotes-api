@@ -12,7 +12,7 @@ Foram lançadas 7 temporadas, portanto nos *endpoints* que precisam do parâmetr
 ### /quotes
 
 
-```/quotes``` Retorna todas as citações das 7 temporadas.
+```GET /quotes``` Retorna todas as citações das 7 temporadas.
 
 **Exemplo da resposta:**
 ```javascript
@@ -46,7 +46,7 @@ Foram lançadas 7 temporadas, portanto nos *endpoints* que precisam do parâmetr
 ### /randomQuote
 
 
-```/randomQuote``` Retorna uma citação aleatória do conjunto das 7 temporadas.
+```GET /randomQuote``` Retorna uma citação aleatória do conjunto das 7 temporadas.
 
 **Exemplo da resposta:**
 ```javascript
@@ -60,7 +60,7 @@ Foram lançadas 7 temporadas, portanto nos *endpoints* que precisam do parâmetr
 
 ### /randomQuotesBySeason/{season}
 
-```/randomQuotesBySeason/{season}``` Retorna uma citação aleatória de uma temporada específica.
+```GET /randomQuotesBySeason/{season}``` Retorna uma citação aleatória de uma temporada específica.
 
 **Exemplo**: ```https://clone-wars-quotes.herokuapp.com/randomQuotesBySeason/2``` : Esta requisição traria uma citação aleatória da temporada 2.
 
@@ -75,7 +75,7 @@ Foram lançadas 7 temporadas, portanto nos *endpoints* que precisam do parâmetr
 
 ### /quote/{season}/{episode}
 
-```/quote/{season}/{episode}``` Retorna um citação específica de uma temporada específica.
+```GET /quote/{season}/{episode}``` Retorna um citação específica de uma temporada específica.
 
 **Exemplo**: ```https://clone-wars-quotes.herokuapp.com/quote/7/8``` : Esta requisição traria a citação do episódio 8 da temporada 7.
 
