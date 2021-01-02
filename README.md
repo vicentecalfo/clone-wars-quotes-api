@@ -7,7 +7,7 @@ A URL base para todos os endpoints: ```https://clone-wars-quotes.herokuapp.com``
 
 ## Endpoints
 
-Foram lançadas 7 temporadas, portanto nos *endpoints* que precisam do paramêtro temporada, você deve passar um número de 1 a 7.
+Foram lançadas 7 temporadas, portanto nos *endpoints* que precisam do parâmetro temporada, você deve passar um número de 1 a 7.
 
 
 ```/quotes``` Retorna todas as citações das 7 temporadas.
