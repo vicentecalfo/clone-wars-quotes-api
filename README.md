@@ -3,7 +3,7 @@ API gratuita para as citações de abertura dos episódios de [Star Wars: A Guer
 
 ## Documentação
 
-A URL base para todos os endpoints: ```https://clone-wars-quotes.herokuapp.com```
+A URL base para todos os endpoints: ```https://clone-wars-quotes.herokuapp.com```.
 
 ## Endpoints
 
